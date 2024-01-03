@@ -3,10 +3,10 @@
     class Index{
         function name ()
         {
-            echo 'dsds';
+           return echo 'dsds';
         }
     }
 
-    $p = new Index();
+    $p = new Index;
     $p->name();
 ?>
